@@ -36,7 +36,6 @@ public class BinaryTree{
 		if(this.root == null){
 			Node n = new Node(array[indexValue]);
 			this.root = n;
-			System.out.println(indexValue);
 			this.root.lchild = new Node(array[2 * indexValue]);
 			this.root.rchild = new Node(array[2 * indexValue + 1]);
 		}
